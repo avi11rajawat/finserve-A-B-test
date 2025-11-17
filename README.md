@@ -4,28 +4,29 @@ A simple A/B testing project analysing conversion rates for two customer groups.
 # Overview
 This project is a self-created A/B test to practice and demonstrate end-to-end skills in:
 
-Designing an experiment.
-Querying and cleaning data using SQL.
-Performing statistical calculations in Excel.
-Building an interactive dashboard in Power BI.
+1. Designing an experiment.
+2. Querying and cleaning data using SQL.
+3. Performing statistical calculations in Excel.
+4. Building an interactive dashboard in Power BI.
+
 The goal was to compare two versions of a loan application flow (Group A vs Group B) and measure which one leads to more completed applications.
 
 # How the A/B Test Was Created
 Since this was a self-built project, I generated a synthetic dataset using SQL.
 
 The dataset includes:
-50,000 users
-Assigned into two random groups: A and B
-Device (Desktop / Mobile)
-Region (North / South / East / West)
-Visit date
-Whether the user completed the loan application (0/1)
+1. 50,000 users
+2. Assigned into two random groups: A and B
+3. Device (Desktop / Mobile)
+4. Region (North / South / East / West)
+5. Visit date
+6. Whether the user completed the loan application (0/1)
 
 # How groups were formed
 While generating data, each user was randomly assigned to a group:
 
-Group A → Old version of the loan application page
-Group B → Updated version of the application page
+- Group A → Old version of the loan application page
+- Group B → Updated version of the application page
 The purpose was to check if the small changes in the design improved conversion.
 
 *This structure simulates how a real A/B test is done in companies.*
